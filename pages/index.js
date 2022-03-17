@@ -31,11 +31,15 @@ export default function Home({posts, events}) {
       </Head>
 
       <div className="container pt-5">
-        <h1 className="text-center pb-5">positivityminds.com</h1>
+        <h1 className="text-center pb-5">Tech Blog</h1>
         <div className="row">
           <div className="col-lg-8">
-            <h2 className="pb-3">Recent posts</h2>
+            <h2 className="pb-3">Our blog posts</h2>
             {jsxPosts}
+          </div>
+          <div className="col-lg-4">
+            <h2 className="pb-3">Events</h2>
+            {jsxEvents}
           </div>
         </div>
       </div>
